@@ -1,0 +1,19 @@
+{
+  "name": "tinderclone",
+  "version": "1.0.0",
+  "description": "tinder clone to practice setting up server and building web app with react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotrnguy92/tinderClone.git"
+  },
+  "author": "Son Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sotrnguy92/tinderClone/issues"
+  },
+  "homepage": "https://github.com/sotrnguy92/tinderClone#readme"
+}
