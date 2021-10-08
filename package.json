@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "tinder clone to practice setting up server and building web app with react",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hmr": "nodemon server.js",
+    "nodemon": "npm run hmr",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/sotrnguy92/tinderClone/issues"
   },
-  "homepage": "https://github.com/sotrnguy92/tinderClone#readme"
+  "homepage": "https://github.com/sotrnguy92/tinderClone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  }
 }
